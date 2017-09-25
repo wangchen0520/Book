@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/button_bookSearch"
+            android:layout_marginTop="56dp"
+            android:layout_toStartOf="@+id/button_bookSearch">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_Book"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="作者+简介" />
+            </RelativeLayout>
+        </ScrollView>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="请输入书名"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button_bookSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/editText"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/editText"
+            android:text="搜索" />
+
+        <Button
+            android:id="@+id/button_enterDiscuss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/button_bookSearch"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_marginTop="92dp"
+            android:text="进入讨论" />
+
+        <Button
+            android:id="@+id/button_startDiscuss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="发起讨论"
+            android:layout_below="@+id/button_enterDiscuss"
+            android:layout_alignStart="@+id/button_enterDiscuss" />
+
+    </RelativeLayout>
+</LinearLayout>

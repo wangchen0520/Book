@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a17231.book">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TheMainView.IncludeActivity">
+
+        </activity>
+        <activity android:name=".TheMainView.HomeActivity" />
+        <activity android:name=".TheMainView.FindActivity" />
+        <activity android:name=".TheMainView.MyinfoActivity" />
+        <activity android:name=".DemoActivity" />
+        <activity android:name=".StartDiscussActivity" />
+        <activity android:name=".EnterDiscussActivity" />
+        <activity android:name=".AboutMeActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".MyDiscussActivity" />
+        <activity android:name=".RegisterAndLogin.RegisterActivity" />
+        <activity android:name=".FindView.GoodbookActivity" />
+        <activity android:name=".FindView.BookDevoteActivity" />
+        <activity android:name=".FindView.BooktripActivity" />
+        <activity android:name=".FindView.ReasonActivity" />
+        <activity android:name=".Comment.CommentIncludeAll" />
+        <activity android:name=".Comment.CommentJustOne" />
+        <activity android:name=".Comment.CommentSend" />
+        <activity android:name=".PersonalMessageActivity" />
+        <activity android:name=".RefreshInfo" />
+        <activity android:name=".MyFriend" />
+        <activity android:name=".RealMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="prompt_rpassword">确认密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">用户名错误</string>
+    <string name="error_invalid_password">密码错误</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">请输入账号或密码</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--zhangyi-->
+    <string name="title_bar_txt">个人信息</string>
+    <string name="account_infor">账号信息</string>
+    <string name="personal_sign">个性签名</string>
+    <string name="personal_tag">个性标签</string>
+    <string name="personal_state">个人动态</string>
+    <string name="change_infor">修改信息</string>
+    <string name="add_friend">添加好友</string>
+    <string name="added_friend">添加成功</string>
+
+    <string name="nickname">昵称</string>
+    <string name="gender">性别</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="constellation">星座</string>
+    <string name="age">年龄</string>
+    <string name="save">保存</string>
+
+    <string name="only_choose_num">超出可选图片张数</string>
+    <string name="finish">完成</string>
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+    <string name="photo">选择相册</string>
+    <string name="album">相册</string>
+    <string name="preview">预览</string>
+    <string name="unfinished">完成</string>
+    <string name="camera_cancel">取消</string>
+    <string name="no_photo">相册没有图片</string>
+
+    <string name="pull_to_refresh">下拉进行刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+
+
+    <!--Yubai Tao-->
+    <!--<string name="app_name">往谈</string>-->
+    <string name="account_management">账号管理</string>
+    <string name="language_set">语言设置</string>
+    <string name="modify_password">修改密码</string>
+    <string name="notification_set">消息提醒</string>
+    <string name="skin_management">皮肤管理</string>
+    <string name="privacy_set">隐私设置</string>
+    <string name="my_account">我的二维码</string>
+    <string name="contact_us">联系我们</string>
+    <string name="log_out">退出登录</string>
+    <string name="input_pw">输入密码：</string>
+    <string name="input_new_pw">输入新密码：</string>
+    <string name="confirm_new_pw">确认新密码：</string>
+    <string name="okay">确认</string>
+    <string name="cancel">取消</string>
+    <string name="warning_1">输入项不能为空</string>
+    <string name="warning_2">两次输入的密码不一致</string>
+    <string name="warning_3">密码错误</string>
+    <string name="warning_4">密码的长度必须大于6位</string>
+    <string name="set_cate_1">定位</string>
+    <string name="cate_1_title_1">定位服务</string>
+    <string name="cate_1_summary_1">用于附近的人查找</string>
+
+    <string name="set_cate_2">动态显示</string>
+    <string name="cate_2_title_1">允许动态显示在主界面</string>
+    <string name="cate_2_summary_1">关闭后您的动态将不会出现在他人的主页上</string>
+    <string name="cate_2_title_2">允许动态显示在好友界面上</string>
+    <string name="cate_2_summary_2">关闭后您的动态将不会出现在好友的动态主页中</string>
+
+    <string name="set_cate_3">消息</string>
+    <string name="cate_3_title_1">消息提醒</string>
+    <string name="cate_3_summary_1">关闭后将不会受到提醒</string>
+
+    <string name="set_cate_4">其他</string>
+    <string name="about">关于</string>
+    <string name="log_off">注销账号</string>
+</resources>
